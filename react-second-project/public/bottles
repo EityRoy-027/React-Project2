@@ -1,0 +1,52 @@
+{
+  "water_bottles": [
+    {
+      "id": "WB001",
+      "name": "HydroSteel Pro",
+      "brand": "AquaPure",
+      "capacity_ml": 750,
+      "material": "Stainless Steel",
+      "insulated": true,
+      "color_options": ["Black", "Blue", "Silver"],
+      "price_usd": 24.99,
+      "in_stock": true,
+      "image": "https://example.com/images/hydrosteel-pro.jpg"
+    },
+    {
+      "id": "WB002",
+      "name": "EcoSip Classic",
+      "brand": "GreenLife",
+      "capacity_ml": 500,
+      "material": "BPA-Free Plastic",
+      "insulated": false,
+      "color_options": ["Green", "Pink", "White"],
+      "price_usd": 9.99,
+      "in_stock": true,
+      "image": "https://example.com/images/ecosip-classic.jpg"
+    },
+    {
+      "id": "WB003",
+      "name": "ThermoChill Max",
+      "brand": "CoolWave",
+      "capacity_ml": 1000,
+      "material": "Stainless Steel",
+      "insulated": true,
+      "color_options": ["Red", "Matte Black"],
+      "price_usd": 29.99,
+      "in_stock": false,
+      "image": "https://example.com/images/thermochill-max.jpg"
+    },
+    {
+      "id": "WB004",
+      "name": "GlassPure Bottle",
+      "brand": "NatureSip",
+      "capacity_ml": 600,
+      "material": "Borosilicate Glass",
+      "insulated": false,
+      "color_options": ["Transparent", "Light Blue"],
+      "price_usd": 14.5,
+      "in_stock": true,
+      "image": "https://example.com/images/glasspure-bottle.jpg"
+    }
+  ]
+}
