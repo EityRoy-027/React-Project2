@@ -15,7 +15,7 @@ function App() {
   // ]
 
 
-  const bottlesPromise = fetch('./bottles.json')
+  const bottlesPromise = fetch('bottles.json')
   .then(res => res.json());
 
   return (
