@@ -5,7 +5,10 @@ const Bottles = ({bottlesPromise}) => {
     console.log(bottles);
     return (
         <div>
-            
+            <h3>bottles: {bottles.length}</h3>
+            {
+                bottles.map(bottle=> <Bottle key={bottle.id} bottle={bottle}></Bottle>)
+            }
         </div>
     );
 };
