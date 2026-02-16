@@ -1,7 +1,7 @@
 import React from 'react';
 import './Bottle.css';
 
-const Bottle = ({bottle}, handleAddtoCart ) => {
+const Bottle = ({bottle, handleAddtoCart} ) => {
     console.log(bottle);
     const { img, name,seller,price,ratings,stock,shipping} = bottle; //using destructure
     return (
