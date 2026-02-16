@@ -8,7 +8,7 @@ const Bottles = ({bottlesPromise}) => {
     return (
         <div>
             
-            <h3>bottles: {bottles.length}</h3>
+            <h3> Total Bottles: {bottles.length}</h3>
             <div className='bottles-container'>
             {
                 bottles.map(bottle=> <Bottle key={bottle.id} bottle={bottle}></Bottle>)
