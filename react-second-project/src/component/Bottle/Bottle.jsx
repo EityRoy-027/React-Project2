@@ -1,7 +1,7 @@
 import React from 'react';
 import './Bottle.css';
 
-const Bottle = ({bottle}) => {
+const Bottle = ({bottle}, handleAddtoCart ) => {
     console.log(bottle);
     const { img, name,seller,price,ratings,stock,shipping} = bottle; //using destructure
     return (
@@ -15,6 +15,7 @@ const Bottle = ({bottle}) => {
     <h3>Ratings: {ratings}</h3>
     <h3> Availbility: {stock} Remaining</h3>
     <h3> Shipping: {shipping}</h3>
+    <button onClick={handleAddtoCart} className='buy'>Buy</button>
     </div>
     
         </div>
