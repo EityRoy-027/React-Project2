@@ -6,7 +6,7 @@ const Bottle = ({bottle}) => {
     const { img } = bottle; //using destructure
     return (
         <div className='card'>
-            <img src= {img} alt="" />
+    <img style={{width:"300px",height:"300px"}} src= {img} alt="" />
         </div>
     );
 };
